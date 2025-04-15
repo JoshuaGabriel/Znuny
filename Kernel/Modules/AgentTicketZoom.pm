@@ -1983,9 +1983,9 @@ sub _ArticleTree {
         },
     );
 
-    my $ArticleViewSelected = 'Collapse';
+    my $ArticleViewSelected = 'Expand';
     if ( $Self->{ZoomExpand} ) {
-        $ArticleViewSelected = 'Expand';
+        $ArticleViewSelected = 'Collapse';
     }
 
     my $ArticleViewStrg = $LayoutObject->BuildSelection(
